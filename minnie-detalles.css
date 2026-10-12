@@ -1,0 +1,21 @@
+.mouse-photo-frame{position:relative;isolation:isolate}
+.frame-ear{position:absolute;width:37%;aspect-ratio:1;border-radius:50%;background:#f0acd0;border:3px solid #efa1c6;top:-15%;z-index:-1}
+.ear-left{left:-6%}.ear-right{right:-6%}
+.frame-bow{position:absolute;top:-24%;left:calc(50% - 25%);width:50%;height:37%;color:#e776ac;z-index:5}
+.cover-mouse-photo{width:min(76%,270px);margin:65px auto 25px;aspect-ratio:1}
+.cover-mouse-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 43%;border:9px solid #f1b1d0;border-radius:50%;background:#fceaf3;box-shadow:0 5px 0 #da8db6}
+.hero-photo-wrap.mouse-photo-frame{aspect-ratio:1;max-width:410px;margin-top:45px;margin-bottom:25px}
+.hero-photo-wrap.mouse-photo-frame .hero-photo{width:100%;height:100%;aspect-ratio:1;object-position:50% 42%;border:12px solid #f1b1d0;outline:none;border-radius:50%;box-shadow:0 7px 0 #dc98b9}
+.hero-photo-wrap.mouse-photo-frame .photo-bow{left:25%;top:-24%;width:50%;height:37%;color:#e776ac}
+.minnie-sticker{background-image:none;background-size:300% 100%;background-repeat:no-repeat;aspect-ratio:1/2;width:180px;height:auto;object-fit:initial;filter:drop-shadow(0 4px 4px #80556916)}
+.minnie-gift{background-position:0 50%}.minnie-standing{background-position:50% 50%}.minnie-walking{background-position:100% 50%}
+.hero-minnie.minnie-sticker{width:155px;height:auto;bottom:-60px;left:-64px;animation:minnie-float 5s ease-in-out infinite}
+.countdown-minnie>.minnie-sticker{width:210px;margin:auto;animation:minnie-float 6s ease-in-out infinite}
+.rsvp-card>.minnie-gift{width:190px;margin:0 auto 25px}
+.closing-minnie>.minnie-sticker{width:160px;margin:0 auto 24px}
+.tiny-mouse-head{position:relative;width:63px;height:60px;border-radius:50%;background:#efb2cf;margin:24px auto 31px}
+.tiny-mouse-head:before,.tiny-mouse-head:after{content:'';position:absolute;width:34px;height:34px;border-radius:50%;background:#efb2cf;top:-13px}
+.tiny-mouse-head:before{left:-13px}.tiny-mouse-head:after{right:-13px}
+.tiny-mouse-head>svg{position:absolute;z-index:3;left:0;top:-20px;width:63px;height:42px;color:#d9669c}
+.details>.section-heading,.memories>.section-heading{position:relative}
+@media(max-width:760px){.cover-mouse-photo{width:min(75%,228px);margin:58px auto 24px}.cover-mouse-photo>img{border-width:8px}.hero-photo-wrap.mouse-photo-frame{width:calc(100% - 53px);max-width:330px;margin-top:29px;margin-bottom:32px}.hero-photo-wrap.mouse-photo-frame .hero-photo{border-width:9px}.hero-minnie.minnie-sticker{width:106px;left:-26px;bottom:-52px}.age-sticker{right:-23px;bottom:-7px}.countdown-minnie>.minnie-sticker{width:160px}.rsvp-card>.minnie-gift{width:157px;margin-bottom:21px}.closing-minnie>.minnie-sticker{width:139px}.tiny-mouse-head{margin-bottom:29px}.hero-layout{gap:80px}.hero-photo-wrap .frame-bow{height:37%}}

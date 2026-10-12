@@ -23,3 +23,5 @@ La ciudad y el salón fueron contrastados con directorios públicos:
 https://www.yellowmega.com/BO/Santa-Cruz-de-la-Sierra/1496644-44/genre/193705277324704/Planificador%2Bde%2Beventos/5
 https://es.cybo.com/BO/santa-cruz-de-la-sierra/salon-para-eventos
 Reemplazar el enlace de búsqueda por el pin compartido por la familia cuando llegue.
+
+ACTUALIZACIÓN: incluir minnie-detalles.css al publicar. Marcos rosas con orejitas y lazo en portada y foto principal; motivos en varias secciones. Figuras de Minnie pendientes de recibir como PNG: la extracción de las capturas fue rechazada por la herramienta.
