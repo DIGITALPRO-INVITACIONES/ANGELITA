@@ -1,0 +1,14 @@
+@font-face{font-family:AngelitaFirma;src:url('assets/nombre-caligrafia.ttf') format('truetype');font-weight:400;font-display:swap}
+.cover h1,.hero .name,.closing-name{font-family:AngelitaFirma,Georgia,serif;font-weight:400;letter-spacing:0;line-height:1.25;color:#aa386b;text-shadow:0 2px 0 #ffffff,0 4px 12px #a5466a15}
+.cover h1{font-size:98px;margin:9px 0 5px}
+.hero .name{font-size:128px;margin:17px 0 23px}
+.closing-name{font-size:104px}
+.closing-name>span{font-family:Georgia,serif;font-size:38px}
+#floating-balloons{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:9}
+.mouse-balloon{position:absolute;bottom:-240px;left:var(--balloon-x);width:var(--balloon-size);height:calc(var(--balloon-size)*2);color:var(--balloon-color);opacity:0;animation:balloon-rise var(--balloon-speed) linear infinite;animation-delay:var(--balloon-delay);will-change:transform}
+.mouse-balloon>svg{display:block;width:100%;height:100%;overflow:visible;stroke:none}
+.effects-off #floating-balloons{display:none}
+@keyframes balloon-rise{0%{transform:translate(0,0) rotate(-7deg);opacity:0}10%,82%{opacity:.4}35%{transform:translate(17px,-45vh) rotate(5deg)}65%{transform:translate(-13px,-95vh) rotate(-4deg)}100%{transform:translate(12px,calc(-100vh - 470px)) rotate(7deg);opacity:0}}
+@media(max-width:760px){.cover h1{font-size:83px;margin-top:10px}.hero .name{font-size:104px;margin:18px 0 25px}.closing-name{font-size:87px}.closing-name>span{font-size:32px}}
+@media(max-width:360px){.cover h1{font-size:74px}.hero .name{font-size:92px}.closing-name{font-size:77px}}
+@media(prefers-reduced-motion:reduce){#floating-balloons{display:none}}

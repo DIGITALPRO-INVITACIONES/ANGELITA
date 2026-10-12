@@ -19,5 +19,15 @@
 .tiny-mouse-head:before,.tiny-mouse-head:after{content:'';position:absolute;width:34px;height:34px;border-radius:50%;background:#efb2cf;top:-13px}
 .tiny-mouse-head:before{left:-13px}.tiny-mouse-head:after{right:-13px}
 .tiny-mouse-head>svg{position:absolute;z-index:3;left:0;top:-20px;width:63px;height:42px;color:#d9669c}
+.age-sticker.animated-three{width:116px;height:167px;border:0;border-radius:0;background:transparent;box-shadow:none;right:-21px;bottom:-17px;padding:0;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:none;animation:number-float 4s ease-in-out infinite;isolation:isolate;color:#b44576}
+.animated-three>strong{font:800 133px/1 var(--heading);background:radial-gradient(circle,#fff8fc 0 4px,transparent 4.5px) 0 0/22px 23px,#d778a3;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;-webkit-text-stroke:2px #a83a69;filter:drop-shadow(3px 5px 0 #fff7fa) drop-shadow(0 3px 4px #b05f7c26)}
+.animated-three>small{font:800 23px/1.2 var(--heading);color:#a5426d;margin-top:0;background:#fff7fae8;padding:2px 10px;border-radius:13px}
+.number-bow{position:absolute;top:-5px;left:10px;width:62px;height:43px;color:#e49aba;transform:rotate(-12deg);z-index:2}
+.number-sparkle{position:absolute;color:#bb5988;font-size:27px;line-height:1;animation:number-twinkle 3s ease-in-out infinite}
+.sparkle-left{left:-3px;top:82px}.sparkle-right{right:-9px;top:40px;animation-delay:1.4s}
+.effects-off .animated-three,.effects-off .number-sparkle{animation:none}
+@keyframes number-float{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-7px) rotate(3deg)}}
+@keyframes number-twinkle{0%,100%{opacity:.2;transform:scale(.65)}45%{opacity:1;transform:scale(1.1)}}
+@media(max-width:760px){.age-sticker.animated-three{width:96px;height:141px;right:-24px;bottom:-23px}.animated-three>strong{font-size:111px;background-size:19px 20px}.animated-three>small{font-size:20px}.number-bow{width:51px;height:36px;top:-3px;left:8px}.number-sparkle{font-size:23px}.sparkle-left{top:70px}.sparkle-right{top:32px;right:-6px}}
 .details>.section-heading,.memories>.section-heading{position:relative}
 @media(max-width:760px){.cover-mouse-photo{width:min(75%,228px);margin:58px auto 24px}.cover-mouse-photo>img{border-width:8px}.hero-photo-wrap.mouse-photo-frame{width:calc(100% - 53px);max-width:330px;margin-top:29px;margin-bottom:32px}.hero-photo-wrap.mouse-photo-frame .hero-photo{border-width:9px}.hero-minnie.minnie-sticker{width:106px;left:-26px;bottom:-52px}.age-sticker{right:-23px;bottom:-7px}.countdown-minnie>.minnie-sticker{width:160px}.rsvp-card>.minnie-gift{width:157px;margin-bottom:21px}.closing-minnie>.minnie-sticker{width:139px}.tiny-mouse-head{margin-bottom:29px}.hero-layout{gap:80px}.hero-photo-wrap .frame-bow{height:37%}}

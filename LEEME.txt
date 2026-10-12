@@ -32,3 +32,5 @@ La página muestra la región de cada figura mediante CSS y conserva los origina
 Incluir armonia-rosa.css. Fondos unificados en rosa suave; integración de las figuras mediante mezcla de color y bordes suaves en CSS.
 
 Última actualización: se usan las tres nuevas imágenes enviadas desde el Escritorio, completas y sin recortes adicionales. Incluir minnie-vestido-nueva.png, minnie-saludo-nueva.png y minnie-regalo-nueva.png en assets.
+
+Incluir nombre-globos.css y assets/nombre-caligrafia.ttf. Nombre en caligrafía y nueve globos flotantes con orejitas y lazo. El botón Brillitos pausa también los globos.

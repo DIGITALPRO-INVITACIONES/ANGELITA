@@ -23,3 +23,11 @@ get('photo-dialog').addEventListener('click',event=>{if(event.target===get('phot
 function publicURL(){if(location.protocol==='file:'||['localhost','127.0.0.1'].includes(location.hostname)){get('share-status').textContent='El enlace para compartir estará disponible cuando se publique la invitación.';return null;}return location.href.split('#')[0];}
 async function copyLink(){const url=publicURL();if(!url)return;try{await navigator.clipboard.writeText(url);get('share-status').textContent='Enlace copiado. Ya puedes compartir la invitación.';}catch{get('share-status').textContent='Copia el enlace de la barra del navegador para compartirlo.';}}
 get('copy-link').addEventListener('click',copyLink);get('share').addEventListener('click',async()=>{const url=publicURL();if(!url)return;if(navigator.share){try{await navigator.share({title:'Angelita cumple 3 años',text:'¡Ven a celebrar con Angelita! Sábado 24 de octubre, 4:00 p. m., salón Happily.',url});}catch(e){if(e.name!=='AbortError')await copyLink();}}else await copyLink();});
+
+// Globos de orejitas y lazo: decorativos y sin bloquear botones ni lectura.
+for(let n=0;n<9;n++){
+ const balloon=document.createElement('span');balloon.className='mouse-balloon';
+ balloon.style.cssText=`--balloon-x:${[3,88,15,76,6,91,28,64,46][n]}%;--balloon-size:${44+n%3*13}px;--balloon-color:${['#e8a5c9','#d990b7','#f0bdd7'][n%3]};--balloon-speed:${22+n%4*3}s;--balloon-delay:-${n*3.7}s`;
+ balloon.innerHTML='<svg viewBox="0 0 120 240" aria-hidden="true"><path d="M61 136q-19 23 0 45t0 53" fill="none" stroke="#ad8394" stroke-width="1.7"/><circle cx="60" cy="85" r="40" fill="currentColor" stroke="#fff9fc" stroke-width="2"/><circle cx="27" cy="38" r="25" fill="currentColor" stroke="#fff9fc" stroke-width="2"/><circle cx="94" cy="38" r="25" fill="currentColor" stroke="#fff9fc" stroke-width="2"/><path d="m60 120-7 13h15Z" fill="currentColor"/><path d="M55 36C43 11 30 9 32 33s8 31 24 12m9-9c12-25 25-27 23-3s-8 31-24 12" fill="#cd548f"/><ellipse cx="60" cy="39" rx="9" ry="10" fill="#c64785"/><path d="M36 63q-17 35 4 48" fill="none" stroke="#fff5fa" stroke-width="4" stroke-linecap="round"/></svg>';
+ get('floating-balloons').append(balloon);
+}
