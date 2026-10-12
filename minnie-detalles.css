@@ -7,8 +7,10 @@
 .hero-photo-wrap.mouse-photo-frame{aspect-ratio:1;max-width:410px;margin-top:45px;margin-bottom:25px}
 .hero-photo-wrap.mouse-photo-frame .hero-photo{width:100%;height:100%;aspect-ratio:1;object-position:50% 42%;border:12px solid #f1b1d0;outline:none;border-radius:50%;box-shadow:0 7px 0 #dc98b9}
 .hero-photo-wrap.mouse-photo-frame .photo-bow{left:25%;top:-24%;width:50%;height:37%;color:#e776ac}
-.minnie-sticker{background-image:none;background-size:300% 100%;background-repeat:no-repeat;aspect-ratio:1/2;width:180px;height:auto;object-fit:initial;filter:drop-shadow(0 4px 4px #80556916)}
-.minnie-gift{background-position:0 50%}.minnie-standing{background-position:50% 50%}.minnie-walking{background-position:100% 50%}
+.minnie-sticker{background-repeat:no-repeat;width:180px;height:auto;object-fit:initial;filter:drop-shadow(0 4px 4px #80556916);overflow:hidden}
+.minnie-standing{background-image:url('assets/minnie-vestido-nueva.png');aspect-ratio:277/427;background-size:contain;background-position:center}
+.minnie-gift{background-image:url('assets/minnie-regalo-nueva.png');aspect-ratio:402/475;background-size:contain;background-position:center;clip-path:none}
+.minnie-walking{background-image:url('assets/minnie-saludo-nueva.png');aspect-ratio:277/427;background-size:contain;background-position:center}
 .hero-minnie.minnie-sticker{width:155px;height:auto;bottom:-60px;left:-64px;animation:minnie-float 5s ease-in-out infinite}
 .countdown-minnie>.minnie-sticker{width:210px;margin:auto;animation:minnie-float 6s ease-in-out infinite}
 .rsvp-card>.minnie-gift{width:190px;margin:0 auto 25px}

@@ -1,0 +1,28 @@
+/* Un fondo rosa suave compartido integra los PNG proporcionados por la familia. */
+:root{--cream:#fff5f8;--mint:#f9e5ee}
+body{background:#fff5f8}
+.cover{background:radial-gradient(circle at 15% 17%,#ffe6f0 0,transparent 45%),radial-gradient(circle at 85% 85%,#f6dce8 0,transparent 43%),#fff5f8}
+.cover-card{background:#fff8fb;border-color:#efb6cd}
+.hero{background:radial-gradient(circle at 8% 18%,#fbe1ed 0,transparent 42%),radial-gradient(circle at 96% 63%,#f7e4ec 0,transparent 40%),#fff5f8}
+.details,.memories,.closing{background:#fff5f8}
+.countdown-section{background:radial-gradient(ellipse at 18% 45%,#fff9fc 0,#fbe8f1 48%,#f8e2ed 100%)}
+.rsvp{background:#fbe8f1}
+.rsvp-card{background:#fff5f8;border-color:#dfb4c8;box-shadow:0 10px 0 #efcfdf}
+.detail-card{background:#fce6ef}.hour-card{background:#f9edf3;border-color:#dbb6c9}.venue-card{background:#fff2f7;border-color:#e7c0d2}
+.hour-card h3,.hour-card>svg,.big-time{color:#91516f}.venue-card>strong{color:#7e3f60}
+.countdown>div{background:#fff7fb;border-color:#dfb7ca}
+.photo-grid figure{background:#fff9fc;border-color:#dcaac0}.photo-grid figure:nth-child(2){border-color:#dcaac0;box-shadow:0 8px 0 #edd0de}
+.button.outline{background:#fff8fb}.utilities>button,.quick-actions{background:#fff6faf5}.quick-actions>a{background:#fff8fb}
+footer{background:#f4d9e6}
+.minnie-sticker{mix-blend-mode:multiply;filter:none;-webkit-mask-image:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent),linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent),linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent);mask-composite:intersect}
+.hero-photo-wrap.mouse-photo-frame{isolation:auto}
+/* Rosa casi blanco como el halo junto a las colas de las figuras nuevas. */
+:root{--cream:#fff7fa;--mint:#fff7fa}
+body,.details,.memories,.closing,.rsvp,.countdown-section{background:#fff7fa}
+.cover{background:radial-gradient(ellipse at center,#fffafd,#fff7fa)}
+.hero{background:#fff7fa}
+.cover-card,.rsvp-card,.detail-card,.hour-card,.venue-card,.countdown>div,.photo-grid figure,.photo-grid figure:nth-child(2),.button.outline{background:#fff7fa}
+.utilities>button,.quick-actions{background:#fff7faf5}
+.quick-actions>a{background:#fff7fa}
+footer{background:#fff7fa;border-top:2px dotted #e7bed2}
+.minnie-sticker{-webkit-mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 5%,#000 94%,transparent);mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 5%,#000 94%,transparent)}

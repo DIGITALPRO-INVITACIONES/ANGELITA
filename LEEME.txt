@@ -24,4 +24,11 @@ https://www.yellowmega.com/BO/Santa-Cruz-de-la-Sierra/1496644-44/genre/193705277
 https://es.cybo.com/BO/santa-cruz-de-la-sierra/salon-para-eventos
 Reemplazar el enlace de búsqueda por el pin compartido por la familia cuando llegue.
 
-ACTUALIZACIÓN: incluir minnie-detalles.css al publicar. Marcos rosas con orejitas y lazo en portada y foto principal; motivos en varias secciones. Figuras de Minnie pendientes de recibir como PNG: la extracción de las capturas fue rechazada por la herramienta.
+ACTUALIZACIÓN: incluir minnie-detalles.css al publicar. Marcos rosas con orejitas y lazo en portada y foto principal; motivos en varias secciones. Figuras de Minnie recibidas en PNG y añadidas al inicio, conteo, confirmación y cierre.
+
+Se incorporaron los tres PNG proporcionados por el cliente sin regenerarlos.
+La página muestra la región de cada figura mediante CSS y conserva los originales.
+
+Incluir armonia-rosa.css. Fondos unificados en rosa suave; integración de las figuras mediante mezcla de color y bordes suaves en CSS.
+
+Última actualización: se usan las tres nuevas imágenes enviadas desde el Escritorio, completas y sin recortes adicionales. Incluir minnie-vestido-nueva.png, minnie-saludo-nueva.png y minnie-regalo-nueva.png en assets.
