@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Digital Pro//Angelita cumple 3//ES
+BEGIN:VEVENT
+UID:angelita-3-20261024@digitalpro
+DTSTAMP:20261012T120000Z
+DTSTART:20261024T200000Z
+SUMMARY:Cumpleaños de Angelita - 3 años
+LOCATION:Salón Happily - Manuel Ignacio Salvatierra 591
+DESCRIPTION:Sábado 24 de octubre a las 4:00 p. m. Hora de Bolivia.
+ Entre La Paz y Chuquisaca\, al lado del Hipermaxi.
+ Confirmación: +15713562697.
+END:VEVENT
+END:VCALENDAR
